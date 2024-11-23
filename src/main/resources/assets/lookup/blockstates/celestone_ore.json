@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lookup:block/celestone_ore"
+    }
+  }
+}

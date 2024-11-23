@@ -8,7 +8,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.trosto.lookup.LookUp;
+import net.trosto.lookup.block.ModBlocks;
 import org.checkerframework.checker.units.qual.C;
+
+import static net.trosto.lookup.block.ModBlocks.CELESTONE_ORE;
 
 public class ModCreativeModTab  {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MOD_TAB =
@@ -19,6 +22,7 @@ public class ModCreativeModTab  {
                     .title(Component.translatable("creative.lookup_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GRASSMOSPHERE.get());
+                        output.accept(CELESTONE_ORE.get());
 
                     }))
                     .build());

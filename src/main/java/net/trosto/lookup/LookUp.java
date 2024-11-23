@@ -12,6 +12,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.trosto.lookup.block.ModBlocks;
 import net.trosto.lookup.item.ModCreativeModTab;
 import net.trosto.lookup.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class LookUp {
         ModCreativeModTab.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
