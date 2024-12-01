@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lookup:celestone_block"
+    }
+  ],
+  "result": {
+    "id": "lookup:celestone_shard",
+    "count": 9
+  }
+}

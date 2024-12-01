@@ -15,6 +15,12 @@ public class ModItems {
     public static final RegistryObject<Item> GRASSMOSPHERE = ITEMS.register("grassmosphere",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GLOW_GRASS = ITEMS.register("glow_grass",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CELESTONE_SHARD = ITEMS.register("celestone_shard",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

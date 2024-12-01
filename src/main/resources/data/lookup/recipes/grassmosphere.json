@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lookup:glow_grass"
+    },
+    "X": {
+      "item": "lookup:celestone_shard"
+    }
+  },
+  "result": {
+    "id": "lookup:grassmosphere",
+    "count:": 1
+  }
+}

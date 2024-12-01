@@ -11,6 +11,7 @@ import net.trosto.lookup.LookUp;
 import net.trosto.lookup.block.ModBlocks;
 import org.checkerframework.checker.units.qual.C;
 
+import static net.trosto.lookup.block.ModBlocks.CELESTONE_BLOCK;
 import static net.trosto.lookup.block.ModBlocks.CELESTONE_ORE;
 
 public class ModCreativeModTab  {
@@ -23,6 +24,9 @@ public class ModCreativeModTab  {
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GRASSMOSPHERE.get());
                         output.accept(CELESTONE_ORE.get());
+                        output.accept(ModItems.GLOW_GRASS.get());
+                        output.accept(ModItems.CELESTONE_SHARD.get());
+                        output.accept(CELESTONE_BLOCK.get());
 
                     }))
                     .build());

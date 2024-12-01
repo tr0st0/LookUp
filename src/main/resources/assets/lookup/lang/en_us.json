@@ -1,5 +1,8 @@
 {
   "item.lookup.grassmosphere": "Grassmosphere",
   "creative.lookup_tab": "Look Up!",
-  "block.lookup.celestone_ore": "Celestone Ore"
+  "block.lookup.celestone_ore": "Celestone Ore",
+  "item.lookup.glow_grass": "Glow Grass",
+  "item.lookup.celestone_shard": "Celestone Shard",
+  "block.lookup.celestone_block": "Celestone Block"
 }

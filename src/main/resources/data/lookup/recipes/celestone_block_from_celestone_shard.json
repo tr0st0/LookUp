@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lookup:celestone_shard"
+    }
+  },
+  "result": {
+    "id": "lookup:celestone_block",
+    "count:": 9
+  }
+}
